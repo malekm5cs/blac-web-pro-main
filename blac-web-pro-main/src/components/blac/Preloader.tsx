@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "@/assets/blac-logo.png.asset.json";
+import logo from "@/assets/BLAC White.png";
 
 const WORD = "BLAC WEB".split("");
 const ease = "cubic-bezier(0.76, 0, 0.24, 1)";
@@ -105,13 +105,13 @@ export function Preloader({ onDone }: { onDone: () => void }) {
               transition: `clip-path 1.3s ${ease}, transform 1.6s ${expo}`,
             }}
           >
-            <img src={logo.url} alt="" className="size-full object-contain" />
+            <img src={logo} alt="" className="size-full object-contain" />
             {/* sheen, masked to the logo shape */}
             <div
               className="absolute inset-0 overflow-hidden"
               style={{
-                WebkitMaskImage: `url(${logo.url})`,
-                maskImage: `url(${logo.url})`,
+                WebkitMaskImage: `url(${logo})`,
+                maskImage: `url(${logo})`,
                 WebkitMaskSize: "contain",
                 maskSize: "contain",
                 WebkitMaskRepeat: "no-repeat",

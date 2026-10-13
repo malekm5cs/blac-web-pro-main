@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/blac-logo.png.asset.json";
+import logo from "@/assets/BLAC White.png";
 import { Magnetic } from "./Magnetic";
 import { SoundToggle } from "./Sound";
 import { ThemeToggle } from "./Theme";
@@ -68,7 +68,7 @@ export function Nav() {
             className="flex items-center gap-3"
           >
             <img
-              src={logo.url}
+              src={logo}
               alt="BLAC Web"
               className="size-7 object-contain"
             />
