@@ -111,7 +111,7 @@ export function Contact() {
               data-cursor="hot"
               className="block font-mono text-xs tracking-[0.2em] text-muted-foreground transition-colors hover:text-foreground"
             >
-              HELLO@BLACWEB.STUDIO
+              HELLO.BLAC.WEB@GMAIL.COM
             </a>
             <p className="font-mono text-xs tracking-[0.2em] text-muted-foreground">
               REMOTE · WORLDWIDE
