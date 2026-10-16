@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "@/assets/BLAC Black.png";
+import logo from "@/assets/blac-logo.png";
 
 const WORD = "BLAC WEB".split("");
 const ease = "cubic-bezier(0.76, 0, 0.24, 1)";

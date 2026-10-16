@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/BLAC Black.png";
+import logo from "@/assets/blac-logo.png";
 import { Magnetic } from "./Magnetic";
 import { SoundToggle } from "./Sound";
 import { ThemeToggle } from "./Theme";
