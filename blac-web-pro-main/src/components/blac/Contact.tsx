@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import logo from "@/assets/blac-logo.png.asset.json";
+import logo from "@/assets/blac-logo.png";
 import { RevealText } from "./RevealText";
 import { Magnetic } from "./Magnetic";
 import { openProjectInquiry } from "./ProjectInquiry";
@@ -123,7 +123,7 @@ export function Contact() {
       <footer className="relative border-t border-border">
         <div className="mx-auto flex max-w-[1600px] flex-col gap-10 px-6 py-12 md:flex-row md:items-center md:justify-between md:px-12">
           <div className="flex items-center gap-3">
-            <img src={logo.url} alt="" className="size-6 object-contain" />
+            <img src={logo} alt="" className="size-6 object-contain" />
             <span className="font-display text-xs tracking-[0.4em]">
               BLAC WEB
             </span>
